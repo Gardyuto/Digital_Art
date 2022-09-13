@@ -1,0 +1,62 @@
+.Buy_and_sell{
+    width: 500px;
+
+}
+h1{
+   
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.NFT{
+    margin-right: 15px;
+background-color: red;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-size: 100%;
+background-image: linear-gradient(
+    90deg,
+    rgb(98,34,215),
+    rgb(195, 34, 210)
+);
+}
+
+.B_A_S{
+    width: 123px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 24px;
+    
+}
+
+.play_color_back{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    
+
+}
+
+.play{
+    width: 53px;
+    height: 53px;
+   border-radius: 50%;
+    background-color: #3f234d; 
+}
+
+.play_color_back{
+    margin-right: 14px;
+}
+
+
+.G_Play {
+    margin: 40px 0 76px 0;
+}
+
+
+.Active{
+    height: 120px;
+    background-color: #ffffff1b;
+}

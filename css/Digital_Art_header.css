@@ -1,0 +1,39 @@
+.color_back{
+    /* border: 2px solid; */
+}
+
+
+header{
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin: 42px 0 57px 0;
+}
+
+.G_cont{
+    max-width: 1300px;
+    /* ?1240px */
+    width: 100%;
+}
+
+.Logo{
+    width: 93px;
+}
+
+.navigation{
+    max-width: 473px;
+    width: 100%;
+}
+
+.Login_singUp{
+    max-width: 170px;
+    width: 100%;
+}
+
+.button_Up{
+    width: 105px;
+    height: 40px;
+    border-radius: 4px;
+}
+
