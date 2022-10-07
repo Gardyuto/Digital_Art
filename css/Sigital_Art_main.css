@@ -1,52 +1,54 @@
-.Buy_and_sell{
+.Buy_and_sell {
     width: 500px;
 
+
 }
-h1{
-   
+
+.ruba h1 {
+
     font-size: 64px;
     font-weight: 700;
 }
 
-.NFT{
+.NFT {
     margin-right: 15px;
-background-color: red;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-size: 100%;
-background-image: linear-gradient(
-    90deg,
-    rgb(98,34,215),
-    rgb(195, 34, 210)
-);
+    background-color: red;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100%;
+    background-image: linear-gradient(90deg,
+            rgb(98, 34, 215),
+            rgb(195, 34, 210));
 }
 
-.B_A_S{
+
+
+.B_A_S {
     width: 123px;
     height: 54px;
     font-weight: 600;
     font-size: 16px;
     border-radius: 5px;
     margin-right: 24px;
-    
+
 }
 
-.play_color_back{
+.play_color_back {
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    
+
 
 }
 
-.play{
+.play {
     width: 53px;
     height: 53px;
-   border-radius: 50%;
-    background-color: #3f234d; 
+    border-radius: 50%;
+    background-color: #3f234d;
 }
 
-.play_color_back{
+.play_color_back {
     margin-right: 14px;
 }
 
@@ -56,7 +58,116 @@ background-image: linear-gradient(
 }
 
 
-.Active{
+.Active {
     height: 120px;
     background-color: #ffffff1b;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.G_Buy_and_sell {
+    /* background-color: aliceblue; */
+    margin-bottom: 164px;
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    width: 100%;
+    max-width: 1340px; */
+}
+
+/* ! */
+
+.G {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    /* padding: 0 200px; */
+}
+
+.C {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    max-width: 1260px;
+    /* background-color: #8a40ff; */
+
+}
+
+/* ! */
+/* ! */
+
+
+.paintings {
+    height: 695px;
+    /* max-width: 729px; */
+    max-width: 550px;
+    width: 100%;
+    /* margin-left: 182px; */
+    position: relative;
+
+}
+  
+.scull {
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+}
+
+.red {
+    position: absolute;
+    right: -100px;
+    /* right: 0; */
+    transform: translate(100px, 0);
+    top: 446px;
+}
+
+.blue {
+    position: absolute;
+    right: -70px;
+    top: 45px;
+
+}
+
+.cat {
+    position: absolute;
+
+}
+
+.purple_square {
+    position: absolute;
+    background-color: #8a40ff;
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+    left: 201px;
+}
+
+
+
+
+
+@media only screen and (max-width:1110px) {
+    .C_Buy_and_sell {
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .Buy_and_sell{
+        margin-bottom: 100px;
+    }
+
+    .paintings{
+        margin-right: 120px;
+    }
 }

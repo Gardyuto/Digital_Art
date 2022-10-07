@@ -18,8 +18,10 @@ background: -moz-linear-gradient(-45deg,  rgba(15,12,34,1) 0%, rgba(52,33,68,1) 
 background: -webkit-linear-gradient(-45deg,  rgba(15,12,34,1) 0%,rgba(52,33,68,1) 6%,rgba(64,30,91,1) 19%,rgba(70,23,84,1) 30%,rgba(66,36,79,1) 39%,rgba(52,33,68,1) 46%,rgba(20,21,33,1) 62%,rgba(65,35,104,1) 88%,rgba(30,32,89,1) 95%,rgba(22,17,56,1) 100%) no-repeat; /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(135deg,  rgba(15,12,34,1) 0%,rgba(52,33,68,1) 6%,rgba(64,30,91,1) 19%,rgba(70,23,84,1) 30%,rgba(66,36,79,1) 39%,rgba(52,33,68,1) 46%,rgba(20,21,33,1) 62%,rgba(65,35,104,1) 88%,rgba(30,32,89,1) 95%,rgba(22,17,56,1) 100%) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0c22', endColorstr='#161138',GradientType=1 ) ; /* IE6-9 fallback on horizontal gradient */
-
-height: 1000px;
+overflow-x: hidden;
+/* width: 100vh; */
+/* max-width: 1440px;
+width: 100%; */
 }
 
 .Ruda{
@@ -34,13 +36,65 @@ height: 1000px;
     font-size: 36px;
 }
 
+.Ruda_fo_siz-48{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
 .Open_Sans{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
-
 }
 
+.Open_Sans_400_size_16{
+    font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+font-weight: 600;
+}
+
+.Open_Sans_400_size_14{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.Open_Sans_600{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.Open_Sans_600_size_24{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+
+  .Size_20{
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+.DM_Sans{
+    font-family: 'DM Sans', sans-serif;
+font-weight: 700;
+font-size: 24px;
+}
+
+.DM_Sans_400{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.text_centr{
+    text-align: center;
+}
+    
 
 .color_back{
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9e0098+0,281274+100 */
@@ -56,24 +110,61 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e0098', end
     
     }
 
+.radius_5{
+    border-radius: 5px;
+}
+
+.margin_20px{
+    margin: 20px;
+}
 
 
-
+.wrap{
+    flex-wrap: wrap;
+    
+}
 
 .flexCCC {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-
 }
 
+.flex_Col_C{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex_Col_SB{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: space-between;
+}
+.flexCCS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   justify-content: space-between;
+}
+
+.flex_Col_SB{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .flexCB {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.flexB{
+    display: flex;
+    justify-content: space-between;
 }
 
 .flexCA {
@@ -102,4 +193,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e0098', end
     
 }
 
+.flex_J_C{
+    display: flex;
+    justify-content: center;
+}
 
+.flexflex_C_SB{
+display: flex;
+/* justify-content: center; */
+align-items: center;
+/* justify-content: space-between; */
+}

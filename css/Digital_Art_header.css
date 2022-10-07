@@ -8,17 +8,21 @@ header{
    display: flex;
    align-items: center;
    justify-content: space-around;
-   margin: 42px 0 57px 0;
+   margin: 42px 0 66px 0;
 }
 
 .G_cont{
-    max-width: 1300px;
-    /* ?1240px */
+    max-width: 1240px;
     width: 100%;
+    margin: 0 20px;
 }
 
 .Logo{
     width: 93px;
+}
+
+.header_left{
+    width: 773px;
 }
 
 .navigation{
@@ -36,4 +40,6 @@ header{
     height: 40px;
     border-radius: 4px;
 }
+
+
 

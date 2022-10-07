@@ -1,0 +1,87 @@
+footer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.G_footer{
+    max-width: 1280px;
+    width: 100%;
+margin-bottom: 78px;
+flex-wrap: wrap;
+justify-content: center;}
+
+
+.C_Newsletter{
+    width: 314px;
+    
+}
+
+
+.C_Newsletter p{
+margin: 24px 0 32px 0;
+}
+
+
+.Newsletter_imgs{
+    width: 148px;
+}
+
+
+.Newsletter_imgs .color_back_2{
+    width: 36px;
+    height: 36px;
+}
+
+
+.Marketplace_text p, .Resources_text p{
+    margin-bottom: 16px;
+}
+
+.C_Marketplace h1, .C_Resources h1{
+    margin-bottom: 24px;
+}
+
+.C_Join_Our_Newsletter p{
+    margin: 24px 0 24px 0;
+}
+
+.C_Join_Our_Newsletter{
+    width: 307px;
+}
+
+input{
+    border: 1px solid #D7D7D7;
+    border-color: #D7D7D7 #d7d7d700 #D7D7D7 #D7D7D7;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 215px;
+    height: 48px;
+    padding: 0 16px ;
+
+    
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+
+}
+/* ::-webkit-input-placeholder{
+} */
+
+.send{
+    width: 48px;
+    height: 48px;
+    border: 1px solid green;
+
+    border-color: rgb(197, 27, 195) rgb(174, 24, 219) rgb(211, 14, 185) rgb(238, 5, 255);
+}
+
+.C_input{
+    width: 295px;
+    position: relative;
+}
+.send{
+    position: absolute;
+    right: 0px;
+}
