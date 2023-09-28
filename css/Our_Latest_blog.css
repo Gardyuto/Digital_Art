@@ -16,12 +16,15 @@
 
 width: 340px;
 
+/* max-width: 340px;
+width: 100%; */
+
 border: 1px solid green;
 border-color: rgb(153, 51, 151) rgb(110, 13, 189) rgba(211, 14, 185, 0.683) rgb(142, 29, 148);
  padding: 24px 24px 37px 24px;
 }
 .O_L_B_2{
-    margin: 35px 35px;
+    margin: 35px 0;
 
 }
 

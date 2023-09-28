@@ -1,0 +1,58 @@
+/* w 500 */
+/* h 1000 */
+
+
+body {
+    margin: 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    position: relative;
+   
+    /* width: 500; */
+    /* height: ; */
+}
+.cont {
+    /* margin: 100px 0 0 100px; */
+    background-color: black;
+    display: flex;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    /* position: relative; */
+}
+
+.box-1 {
+
+    width: 40px;
+    height: 40px;
+    background-color:red;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+} 
+.box-2 {
+    width: 50px;
+    height: 50px;
+    background-color:rgb(58, 143, 48);
+    /* position: absolute; */
+} 
+.box-3 {
+    width: 50px;
+    height: 50px;
+    background-color:rgb(102, 22, 194);
+    /* position: absolute; */
+} 
+/* x5 */
+
+
+
+
+
+/* display : block;  parrent*/
+/* w100% hauto  child*/ 
+
